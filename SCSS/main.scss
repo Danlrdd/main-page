@@ -1,0 +1,28 @@
+$primary-color: #012340;
+$secondary-color: #D92B3A;
+$tertiary-color: #F2E205;
+$cuaternary-color: #F2B705;
+$quintary-color: #F29F05;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: $tertiary-color;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    letter-spacing: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid $secondary-color;
+}
